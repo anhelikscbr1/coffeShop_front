@@ -249,3 +249,47 @@ img{
     }
   
 }
+
+/*Contact page*/
+.img-background{
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.form{
+    background-color: white;
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+    border-radius: 2rem;
+}
+
+.camp{
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+.camp__label{
+    flex: 0 0 9rem;
+    text-align: right;
+}
+.camp__input{
+    flex: 1;
+    border: 1px solid var(--gray);
+    border-radius: 0.3rem;
+}
+.camp__input--textarea{
+    height: 20rem;
+}
+
+.camp .btn{
+    border: none;
+    align-items: center;
+    padding: 1rem 6rem;
+}
+.camp .btn:hover{
+    cursor: pointer;
+}

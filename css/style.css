@@ -205,3 +205,14 @@ img{
     padding: 2rem 0;
     margin-top: 4rem;
 }
+
+@media (min-width: 768px) {
+    .aboutus{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+ .aboutus__img{
+    max-height: 100%;
+ }
